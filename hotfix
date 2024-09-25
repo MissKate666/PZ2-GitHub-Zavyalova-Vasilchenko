@@ -5,5 +5,6 @@ try:
   c = int(input('Введите c: '))
 except ValueError:
   print('Вы ввели не число')
-print(back.f(a, b, c))
-print('Результат')
+else:
+  print(back.f(a, b, c))
+  print('Результат')

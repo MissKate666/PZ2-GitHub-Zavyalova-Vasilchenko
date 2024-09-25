@@ -1,3 +1,12 @@
+def f(a,b,c):
+  d=sqrt(b*b-4*a*c)
+  if d<0:
+    return None
+  if d>0:
+    x1=(-b+d)/(2*a)
+    x2=(-b-d)/(2*a)
+    return x1,x2
+
 import back
 a = int(input('Введите а: '))
 b = int(input('Введите b: '))
